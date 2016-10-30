@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gernon and Garnsworthy</title>
+    <style type="text/css">
+    body{
+        padding-top: 70px;
+    }
+    #container-border{
+        border: 10px solid rgba(0,0,0,0.7);
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #272727;
+    }
+  </style>
+</head>
+<body>
+
+<!----Carousel----->
+    <div class="container">
+    <div class="row">
+    <div class="col-xs-6 col-xs-offset-3">
+        <div id="carousel-generic" class="carousel slide" data-ride="carousel">
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-generic" data-slide-to="2"></li>
+            </ol>
+            <!----Wrapper for slides----->
+            <div class="carousel-inner" role="listbox"  id="container-border">
+                <div class="item active">
+                    <img src="images/Agile.jpg" alt="The Avengers pic">
+                    <div class="carousel-caption">
+                    The Mighty Avengers
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/hulk.jpg" alt="The Hulk pic">
+                    <div class="carousel-caption">
+                    The Incredible Hulk
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/paul.jpg" alt="Paul Alien pic">
+                    <div class="carousel-caption">
+                    The Rude Alien
+                    </div>
+                </div>
+                <!----Controls---->
+                <a class="left carousel-control" href="#carousel-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+</body>
+<script src='http://code.jquery.com/jquery.min.js'></script>
+<script src='bootstrap/js/bootstrap.min.js'></script>
+</html>

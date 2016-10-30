@@ -1,0 +1,13 @@
+.navbar-default{
+    background-color: #333;
+}
+.navbar-default .navbar-brand{
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #fff;
+}
+#intro{
+    background-image: url(images/Agile.jpg);
+    background-size: cover;
+}
